@@ -1,4 +1,8 @@
-% diff(Y, X, D) means "the derivative of Y with respect to (wrt) X is D"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                          %
+%  diff(Y, X, D) means "the derivative of Y with respect to (wrt) X is D"  %
+%                                                                          %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % The derivative of a constant C is 0
 diff(C, _, 0) :- number(C).
