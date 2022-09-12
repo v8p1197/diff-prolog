@@ -12,6 +12,24 @@ The following relationships are defined:
 
 The result will not be simplified. You can check the correctness of the solution by simplifying the resulting expression via this [online tool](https://www.mathpapa.com/simplify-calculator/).
 
+## Get started
+
+1. Download and install [SWI-ProLog](https://www.swi-prolog.org/Download.html);
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/v8p1197/diff-prolog
+    ```
+
+1. Include [derivatives.pl](derivatives.pl):
+
+    ```bash
+    cd diff-prolog
+    swipl diff-prolog
+    ```
+    
+1. Have fun.
+
 ## Examples
 
 The differentiation operator is defined as `diff`. The syntax is `diff(Y,X,D)`, meaning that *The derivative of Y with respect to X is D*.
