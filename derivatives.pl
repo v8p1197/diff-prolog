@@ -4,10 +4,6 @@
 %                                                                          %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% ---------- Simplification ----------
-diff(F, X, D) :-
-	diff_ns(F, X, S), simplify(S, D).
-
 % ---------- Facts ----------
 
 % The derivative of a constant C is 0
