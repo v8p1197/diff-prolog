@@ -25,7 +25,7 @@ The result will not be simplified. You can check the correctness of the solution
 
     ```bash
     cd diff-prolog
-    swipl diff-prolog
+    swipl derivatives.pl
     ```
     
 1. Have fun.
