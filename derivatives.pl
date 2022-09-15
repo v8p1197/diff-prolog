@@ -36,8 +36,8 @@ diff(F/G, X, (DF*G-F*DG)/(G^2)) :-
 % ---------- Basics ----------
 
 % POL: The derivative of "f(x)^p" wrt x is "p * f(x)^(p-1) * f'(x)"
-diff(F^P, X, P*F^(P-1)*DF) :-
-	diff(F, X, DF), number(P).
+diff(F^Q, X, Q*F^(P)*DF) :-
+	diff(F, X, DF), succ(P, Q), number(P), number(Q).
 
 % EXP: The derivative of "exp(f(x))" wrt x is "exp(f(x)) * f'(x)"
 diff(e^F, X, (e^F)*DF) :-
