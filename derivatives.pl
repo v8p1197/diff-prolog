@@ -52,20 +52,20 @@ diff(cos(F), X, -sin(F)*DF) :-
 	diff(F, X, DF).
 
 % TAN: The derivative of "tan(f(x))" wrt x is the derivative of "sin(f(x))/cos(f(x))" wrt x 
-diff(tan(F), X, DSC) :-
-	diff(sin(F)/cos(F), X, DSC).
+diff(tan(F), X, D) :-
+	diff(sin(F)/cos(F), X, D).
 
 % COT: The derivative of "cot(f(x))" wrt x is the derivative of "cos(f(x))/sin(f(x))" wrt x 
-diff(cot(F), X, DSC) :-
-	diff(cos(F)/sin(F), X, DSC).
+diff(cot(F), X, D) :-
+	diff(cos(F)/sin(F), X, D).
 
 % SEC: The derivative of "sec(f(x))" wrt x is the derivative of "1/cos(f(x))" wrt x 
-diff(sec(F), X, DSC) :-
-	diff(1/cos(F), X, DSC).
+diff(sec(F), X, D) :-
+	diff(1/cos(F), X, D).
 
 % CSC: The derivative of "csc(f(x))" wrt x is the derivative of "1/sin(f(x))" wrt x 
-diff(csc(F), X, DSC) :-
-	diff(1/sin(F), X, DSC).
+diff(csc(F), X, D) :-
+	diff(1/sin(F), X, D).
 
 % LOG: The derivative of "log(f(x))" wrt x is "f'(x)/f(x)"
 diff(log(F), X, DF/F) :-
