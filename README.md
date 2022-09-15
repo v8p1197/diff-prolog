@@ -2,13 +2,16 @@
 Solves the symbolic differentiation problem in ProLog.
 
 Currently, the following basic derivatives are defined:
-* Derivative of a constant
-* Derivative of a polynom
+* Derivative of a constant;
+* Derivative of a polynom;
+* Derivative of an exponential function;
+* Derivative of trigonometric functions (sin, co, tan, cot, sec, csc);
+* Derivative of (natural) logarithm.
 
 The following relationships are defined:
-* Derivative of a sum/difference
-* Derivative of a product
-* Derivative of a fraction
+* Derivative of a sum/difference;
+* Derivative of a product;
+* Derivative of a fraction.
 
 The result will not be simplified. You can check the correctness of the solution by simplifying the resulting expression via this [online tool](https://www.mathpapa.com/simplify-calculator/).
 
